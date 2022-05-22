@@ -1,0 +1,32 @@
+#a {
+    background-color: #ff0000;
+}
+
+#b {
+    background-color: #0000ff;
+}
+
+#c {
+    background-color: #ffff00;
+}
+
+#a, #b, #c {
+    height: 100px;
+
+}
+
+#linha {
+    background-color: #ffa500;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a, #c {
+    flex-grow: 1;
+}
+
+#b {
+    flex-grow: 2;
+}

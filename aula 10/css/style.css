@@ -1,0 +1,20 @@
+#a {
+    background-color: #ff0000;
+}
+
+#b {
+    background-color: #0000ff;
+}
+
+#c {
+    background-color: #ffff00;
+}
+
+
+#linha {
+    background-color: #ffa500;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+

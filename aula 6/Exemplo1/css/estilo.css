@@ -1,0 +1,59 @@
+.box{
+    width: 960px;
+    border: 1px  dashed black;
+    border-radius: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    font-size: 13pt;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px black;
+
+}
+
+#bot{
+    color: #fff;
+    background: linear-gradient(gold, blue);
+    width: 70%;
+    border: none;
+    font-size: 10pt;
+    padding: 5px;
+    border-radius: 100px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+
+
+}
+
+.image {
+    width: 300px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.texto {
+    width: 600px;
+    border-left: 1px solid #000;
+    padding-left: 50px;
+    box-sizing: border-box;
+
+}
+
+.image, .texto{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+a, a:visited{
+
+    color:#008000 ;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #000;
+    color:#fff
+}
